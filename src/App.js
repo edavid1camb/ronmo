@@ -4,7 +4,7 @@ import { LoggedIn } from "./pages/LoggedIn";
 import { Login } from "./pages/Login";
 
 function App() {
-  const [loginSuccess, setLoginSuccess] = useState(false);
+  const [loginSuccess, setLoginSuccess] = useState(true);
 
   const onLoginSuccess = () => setLoginSuccess(true);
 
